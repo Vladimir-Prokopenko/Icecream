@@ -1,0 +1,121 @@
+.header {
+  position: relative;
+}
+
+.header__container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-top: 6px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+
+  @media screen and (min-width: $tablet) {
+    padding-top: 37px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    padding-left: 46px;
+    justify-content: space-between;
+  }
+}
+
+.header__logo {
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Titan One', cursive;
+  font-size: 26px;
+  letter-spacing: 1.04px;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  transition: color var(--time-duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--primary-text-color);
+  }
+}
+
+.header__logo-svg {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  fill: var(--accent-color);
+}
+
+.header__button-menu {
+  width: 32px;
+  height: 32px;
+  color: var(--accent-color);
+  transition: color var(--time-duration) var(--timing-function);
+
+  @media screen and (max-width: 1199px) {
+    margin-left: auto;
+  }
+
+  @media screen and (min-width: $desktop) {
+    display: none;
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--primary-text-color);
+  }
+}
+.header__button-svg {
+  width: 22px;
+  height: 22px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 35px;
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.header-nav__link {
+  padding: 14px 0px;
+  color: var(--primary-text-color);
+  font-size: 16px;
+  font-weight: 700;
+  transition: color var(--time-duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.header__button-modal {
+  width: 160px;
+  height: 44px;
+  border-radius: 22px;
+  color: var(--accent-color);
+  background: var(--primary-text-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  transition: color var(--time-duration) var(--timing-function),
+    background-color var(--time-duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--primary-text-color);
+    background-color: var(--accent-color);
+  }
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
+  @media screen and (min-width: $tablet) {
+    margin-left: 30px;
+  }
+}
