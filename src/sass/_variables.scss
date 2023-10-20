@@ -1,0 +1,23 @@
+:root {
+  --primary-text-color: #ffffff;
+  //   var(--primary-text-color)
+  --secondary-text-color: #000000;
+  //   var(--secondary-text-color)
+
+  --accent-color: #d41443;
+  //   var(--accent-color)
+
+  --primary-background-color: #ffb8ca;
+  //   var(--primary-background-color)
+  --secondary-background-color: #fff5f6;
+  // var(--secondary-background-color)
+
+  --time-duration: 250ms;
+  //   var(--time-duration)
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  //   var(--timing-function)
+}
+
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1200px;
