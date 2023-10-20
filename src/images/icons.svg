@@ -13,5 +13,10 @@ stroke-width="6" d="M0 2.286h45.714M0 16h45.714M0 29.714h45.714"></path>
 <symbol id="close" viewBox="0 0 32 32">
 <path style="stroke: var(--color1, currentColor)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="2" d="M2.52 2l26.96 28M2 29.48l28-26.96"></path>
 </symbol>
+<symbol id="ellipsis" viewBox="0 0 139 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M85.333 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M138.667 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+</symbol>
 </defs>
 </svg>
