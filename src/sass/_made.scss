@@ -1,0 +1,115 @@
+.made {
+  padding-top: 125px;
+  padding-bottom: 100px;
+  background-color: var(--secondary-background-color);
+}
+
+.made__plea {
+  margin-bottom: 15px;
+  color: #ffa5ba;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.made__title {
+  margin-bottom: 26px;
+  color: #d41443;
+  text-align: center;
+  font-family: Titan One;
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: 1.36px;
+  text-transform: uppercase;
+}
+
+.made__cow {
+  display: block;
+  width: 100%;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 46px;
+}
+
+.made__caption {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 40px;
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 162%;
+}
+
+.made__text {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 20px;
+  background-image: url(../images/made/bg-made-svg.svg);
+  background-repeat: no-repeat;
+  color: #907e82;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 162%;
+}
+
+.made__button {
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 176px;
+  height: 44px;
+  margin-left: 50px;
+  border-radius: 22px;
+  background-color: #fff;
+  color: #d41443;
+  font-size: 14px;
+  font-weight: 700;
+  transition: color var(--time-duration) var(--timing-function),
+    background-color var(--time-duration) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--primary-text-color);
+    background-color: var(--accent-color);
+  }
+}
+
+.made__button-gt {
+  margin-left: 14px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.made__list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.made__item-svg {
+  width: 33px;
+  height: 50px;
+  margin-bottom: 16px;
+}
+.made__item-number {
+  margin-bottom: 16px;
+  color: #d41443;
+  font-family: Titan One;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+}
+.made__item-text {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 170%;
+}
