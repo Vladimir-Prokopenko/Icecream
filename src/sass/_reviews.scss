@@ -1,0 +1,115 @@
+.reviews {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  @media screen and (min-width: $tablet) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    padding-top: 123px;
+    padding-bottom: 132px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+.reviews__thumb {
+  text-align: center;
+}
+
+.reviews__img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: $tablet) {
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 15px;
+  }
+}
+
+.reviews__content-wrap {
+  background-color: #fafafa;
+  padding: 40px 50px 30px;
+  margin-bottom: 30px;
+  background-image: url(../images/reviews/quotes.svg);
+  background-repeat: no-repeat;
+  background-size: 54px 40px;
+  background-position: left 28px top 22px;
+
+  @media screen and (min-width: $tablet) {
+    padding: 50px 105px 35px;
+    margin-bottom: 24px;
+    background-position: left 38px top 34px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    padding: 50px 70px 35px;
+    margin-bottom: 15px;
+  }
+}
+
+.reviews__text {
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 255%;
+  text-decoration: underline;
+  text-decoration-color: black;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 216%;
+    letter-spacing: 0.56px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 186%;
+    letter-spacing: 0.64px;
+  }
+}
+
+.reviews__ellipsis {
+  width: 32px;
+  height: 4px;
+  color: #c7133e;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: $tablet) {
+    margin-bottom: 14px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 15px;
+  }
+}
+
+.reviews__city {
+  margin-bottom: 30px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 186%;
+
+  @media screen and (min-width: $tablet) {
+    margin-bottom: 35px;
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 20px;
+  }
+}
+
+.reviews__dots {
+  margin-left: auto;
+  margin-right: auto;
+}
