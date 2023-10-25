@@ -1,0 +1,36 @@
+<section class="gallery">
+  <div class="gallery__thumb">
+    <picture>
+      <source
+        srcset="
+          ./images/gallery/gallery-320w.webp   320w,
+          ./images/gallery/gallery-640w.webp   640w,
+          ./images/gallery/gallery-768w.webp   768w,
+          ./images/gallery/gallery-960w.webp   960w,
+          ./images/gallery/gallery-1536w.webp 1536w,
+          ./images/gallery/gallery-2304w.webp 2304w
+        "
+        type="image/webp"
+      />
+
+      <source
+        srcset="
+          ./images/gallery/gallery-320w.jpg   320w,
+          ./images/gallery/gallery-640w.jpg   640w,
+          ./images/gallery/gallery-768w.jpg   768w,
+          ./images/gallery/gallery-960w.jpg   960w,
+          ./images/gallery/gallery-1536w.jpg 1536w,
+          ./images/gallery/gallery-2304w.jpg 2304w
+        "
+        type="image/jpeg"
+      />
+
+      <img
+        loading="lazy"
+        class="gallery__img"
+        src="./images/gallery/gallery-2304w.jpg"
+        alt="галерея мороженого"
+      />
+    </picture>
+  </div>
+</section>
